@@ -1,0 +1,12 @@
+READ ME
+/******************************************************************************************************/
+1. POM with Data Driven Testing is integrated to automate Mainspring-Add Defect
+2. Run TestClassMainspring.java in src//test//java//TestPackageMainspring as a TestNG suite to execute the test.
+3. The Excel file, that the framework reads the data form is available in \\DataInput\\TestData.xlsx. You are free to add as many rows and columns as you want. But be sure, that no element in any column of any row should be empty.
+4. Screenshots taken during the execution of the test is available in \\Screenshots folder.
+5. The login is not automated, you have a 54 sec timer to manually log in to the application.
+6. Test report will be available in the \\test-output folder with the name as "Test Report<Date>.html".
+8. Before executing, please be sure to clean the project and build it.
+9. Multi-browser capability is added to test, just change value in excel sheet to "Chrome" and "Mozila" according to your needs.
+10. In TestClassMainspring.java,  enter start iteration and end iteration at line 73 and 75 respectively.
+/********************************************************************************************************/
